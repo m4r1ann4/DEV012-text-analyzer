@@ -9,7 +9,7 @@
 * [5. Boilerplate](#5-boilerplate)
 * [6. Criterios de aceptación mínimos del proyecto](#6-criterios-de-aceptación-mínimos-del-proyecto)
 * [7. Pruebas](#7-pruebas)
-* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
+* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas)
 * [9. Consideraciones para pedir tu Project Feedback](#9-consideraciones-para-pedir-tu-project-feedback)
 * [10. Objetivos de aprendizaje](#10-objetivos-de-aprendizaje)
 * [11. Funcionalidades opcionales](#11-funcionalidades-opcionales)
@@ -18,9 +18,9 @@
 
 ## 1. Consideraciones generales
 
-* Este proyecto lo resolvemos de manera **individual**.
-* El rango de tiempo estimado para completar el proyecto es de 1 a 3 Sprints.
-* Enfócate en aprender y no solamente en "completar" el proyecto.
+* Este proyecto lo resolvemos de manera individual.
+* El rango de tiempo estimado para completar el proyecto es de 1 a 3 Sprintspero yo me lleve un poco mas de tiempo por que me desespere y quice terminarlo sin haber entendido, decidi regresarme y comprenderlo mejor.
+* Enfócate en aprender y no solamente en "completar" el proyecto, y eso fue lo que me paso, lo quise entregar a la par de mis compañeras y solo corte y pegue pero no entendia el por que las cosas tenian que estar ahi.
 * Te sugerimos que no intentes saberlo todo antes de empezar a codear.
   No te preocupes demasiado ahora por lo que _todavía_ no entiendas.
   Irás aprendiendo.
@@ -68,14 +68,16 @@ en un cuadro de texto.
 resultado en tiempo real a medida que la usuaria escribe su texto:
 
     - **Recuento de palabras**: la aplicación debe poder contar el número de
-    palabras en el texto de entrada y mostrar este recuento a la usuaria
+    palabras en el texto de entrada y mostrar este recuento a la usuaria, ´para esta funcion utilice un metodo llamado .split  que me ayuda a dividir las palabras que se ingresan en el textarea, estos tambien me incluyen los espacios y me devuelve un array si utilizo un (") como separador la cadena se divide entre palabras. 
     - **Recuento de caracteres**: la aplicación debe poder contar el número de
     caracteres en el texto de entrada, incluidos espacios y signos de
     puntuación, y mostrar este recuento a la usuaria.
+    En esta funcion utilice igual que el anterior un metodo .split acompañado de un metodo.length que me devuelve el numero de elementos de un array o matriz que en este caso es la cantidad de "Caracteres" incluyendo espacios, numeros y signos de puntuacion que agreguemos. 
     - **Recuento de caracteres excluyendo espacios y signos de puntuación**:
     la aplicación debe poder contar el número de caracteres en el texto de
     entrada, excluyendo espacios y signos de puntuación, y mostrar este recuento
     a la usuaria.
+    para esta funcion tuve que leer sobre el .replace que funciona seleccionando las expresiones regulares y las reemplaza por un string 
     - **Recuento de números**: la aplicación debe contar cúantos números hay en
     el texto de entrada y mostrar este recuento a la usuaria.
     - **Suma total de números**: la aplicación debe sumar todos los números que
