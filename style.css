@@ -1,0 +1,41 @@
+body {
+  text-align: center;
+  background-image: url("flor.jpg");
+  background-size: 280px 280px; /*PONDRIAMOS COVER PARA QUE SE ADAPTE AL TAMAÑO DE LA PAGINA*/
+  height: 280px;
+  background-repeat: repeat-y;
+  background-position: right top;
+  }
+  
+ header {
+  margin: 0;
+ }
+ h1 {
+  color: rgb(246, 178, 6);
+  font-size: 3.5em;
+}
+textarea[name="user-input"] {
+  border: 4px rgb(174, 201, 129) solid;
+  color: rgb(2, 51, 51);
+  border-radius: 8px;
+  padding: 30px 60px 40px;
+  width: 300px;
+  background-color: rgb(209, 255, 250);
+}
+#reset-button {
+  margin: 0;
+}
+.list {
+  text-align: left;
+  color: rgb(238, 146, 195);
+  margin: 0;
+}
+footer{
+  margin: 0;
+} 
+p {
+  text-align: right;
+}
+em {
+  color:chartreuse;
+}
